@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Large data and model artifacts
+*.pth
+*.pt
+*.npy
+*.npz
+*.zip
+*.png
+*.jpg
+*.jpeg
+
+# Generated outputs
+generated_*/
+flat_rigid_residual_labels/
+per_trial_csv/
+per_trial_metrics/
+*.csv
+*.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
